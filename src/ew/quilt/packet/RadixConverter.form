@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="&#x68c9;&#x88ab;&#x5bb6;&#x65cf; - &#x9032;&#x4f4d; / &#x908f;&#x8f2f;&#x8a08;&#x7b97;&#x5de5;&#x5177;"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="labelTitle" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="labelMode" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cbMode" min="-2" pref="100" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="tBtnRadixNegative" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="tBtnExpressionNegative" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="btnClear" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="labelRadix" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelLogic" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="labelRadixHex" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelRadixDec" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelRadixOct" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelRadixBin" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="168" max="-2" attributes="0"/>
+                                              <Component id="labelExpression" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="labelLeftWarning" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="btnCalc" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="txtRadixDec" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                                  <Component id="txtRadixBin" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                                  <Component id="txtRadixOct" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                                  <Component id="txtRadixHex" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="txtExpressionHex" max="32767" attributes="0"/>
+                                                  <Component id="txtExpressionDec" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="txtExpressionOct" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="txtExpressionBin" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="labelRightWarning" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <Component id="labelLogicDec" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Component id="txtANDDec" min="-2" pref="150" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <Component id="labelLogicOct" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Component id="txtANDOct" min="-2" pref="150" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <Component id="labelLogicBin" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Component id="txtANDBin" min="-2" pref="150" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                              <Component id="labelLogicHex" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace pref="8" max="32767" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="labelAND" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="txtANDHex" min="-2" pref="150" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="txtORHex" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                          <Component id="labelOR" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtORDec" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                          <Component id="txtORBin" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                          <Component id="txtOROct" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="txtXORHex" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                          <Component id="labelXOR" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtXORDec" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                          <Component id="txtXORBin" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                          <Component id="txtXOROct" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="labelNOT" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtNOTDec" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                          <Component id="txtNOTBin" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                          <Component id="txtNOTOct" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                          <Component id="txtNOTHex" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="labelXOR" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelNOT" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="144" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="labelTitle" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelMode" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbMode" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tBtnRadixNegative" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tBtnExpressionNegative" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnClear" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelRadix" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelExpression" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelLeftWarning" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnCalc" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="labelRightWarning" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="labelRadixHex" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtRadixHex" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtExpressionHex" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelRadixDec" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtRadixDec" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtExpressionDec" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelRadixOct" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtRadixOct" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtExpressionOct" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelRadixBin" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtRadixBin" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtExpressionBin" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelLogic" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelOR" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelAND" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="txtORDec" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelLogicDec" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtANDDec" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtXORDec" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtNOTDec" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="txtOROct" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelLogicOct" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtANDOct" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtXOROct" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtNOTOct" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="txtORBin" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelLogicBin" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtANDBin" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtXORBin" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtNOTBin" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="txtORHex" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelLogicHex" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtANDHex" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtXORHex" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtNOTHex" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="108" pref="108" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="labelTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8edf;&#x6b63;&#x9ed1;&#x9ad4;" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x9032;&#x4f4d;&#x8f49;&#x63db; / &#x908f;&#x8f2f;&#x8a08;&#x7b97;&#x5668;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelMode">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x6a21;&#x5f0f;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbMode">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="QWORD"/>
+            <StringItem index="1" value="DWORD"/>
+            <StringItem index="2" value="WORD"/>
+            <StringItem index="3" value="BYTE"/>
+          </StringArray>
+        </Property>
+        <Property name="selectedIndex" type="int" value="1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbModeActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelRadix">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x6578;&#x503c;&#x8f49;&#x63db;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelRadixHex">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="HEX"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtRadixBin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+        <Property name="name" type="java.lang.String" value="txtRadixBin" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtRadixBinKeyReleased"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtRadixBinKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelRadixDec">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DEC"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtRadixHex">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+        <Property name="name" type="java.lang.String" value="txtRadixHex" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtRadixHexKeyReleased"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtRadixHexKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelRadixOct">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="OCT"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtRadixDec">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+        <Property name="name" type="java.lang.String" value="txtRadixDec" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtRadixDecKeyReleased"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtRadixDecKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelRadixBin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="BIN"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtRadixOct">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+        <Property name="name" type="java.lang.String" value="txtRadixOct" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtRadixOctKeyReleased"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtRadixOctKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtExpressionHex">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+        <Property name="name" type="java.lang.String" value="txtExpressionHex" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtExpressionHexKeyReleased"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtExpressionHexKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtExpressionDec">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+        <Property name="name" type="java.lang.String" value="txtExpressionDec" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtExpressionDecKeyReleased"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtExpressionDecKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtExpressionOct">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+        <Property name="name" type="java.lang.String" value="txtExpressionOct" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtExpressionOctKeyReleased"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtExpressionOctKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtExpressionBin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+        <Property name="name" type="java.lang.String" value="txtExpressionBin" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtExpressionBinKeyReleased"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtExpressionBinKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelExpression">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x904b;&#x7b97;&#x5143;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelLogic">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x908f;&#x8f2f;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtANDHex">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtANDHexKeyPressed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtANDHexKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelLogicOct">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="OCT"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtANDDec">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtANDDecKeyPressed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtANDDecKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelLogicBin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="BIN"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtANDOct">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtANDOctKeyPressed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtANDOctKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelLogicHex">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="HEX"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtANDBin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtANDBinKeyPressed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtANDBinKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelLogicDec">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DEC"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelOR">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="OR"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtOROct">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtOROctKeyPressed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtOROctKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtORBin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtORBinKeyPressed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtORBinKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtORHex">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtORHexKeyPressed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtORHexKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtORDec">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtORDecKeyPressed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtORDecKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="tBtnRadixNegative">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x6578;&#x503c;&#x8ca0;&#x865f;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tBtnRadixNegativeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelXOR">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="XOR"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtXOROct">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtXOROctKeyPressed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtXOROctKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtXORBin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtXORBinKeyPressed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtXORBinKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtXORHex">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtXORHexKeyPressed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtXORHexKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtXORDec">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtXORDecKeyPressed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtXORDecKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelNOT">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="NOT"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNOTOct">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtNOTOctKeyPressed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtNOTOctKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNOTBin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtNOTBinKeyPressed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtNOTBinKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNOTHex">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtNOTHexKeyPressed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtNOTHexKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNOTDec">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtNOTDecKeyPressed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtNOTDecKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="tBtnExpressionNegative">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x904b;&#x7b97;&#x5143;&#x8ca0;&#x865f;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tBtnExpressionNegativeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnClear">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x6e05;&#x9664;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnClearActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelLeftWarning">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" id="red" palette="1" red="ff" type="palette"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelRightWarning">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" id="red" palette="1" red="ff" type="palette"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelAND">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="AND"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCalc">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x5c0f;&#x7b97;&#x76e4;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCalcActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

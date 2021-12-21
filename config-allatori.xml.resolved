@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <jars>
+        <jar in="dist/MaplePacketHelper.jar" out="dist/MaplePacketHelper-Obfuscated.jar"/>
+    </jars>
+
+    <classpath>
+        <jar name="lib/Common-Lang-3-3.7.jar"/>
+    </classpath>
+
+    <keep-names>
+        <class template="class MainJFrame">
+            <method template="public main(**)"/>
+        </class>
+    </keep-names>
+
+    <property name="log-file" value="log.xml"/>
+</config>

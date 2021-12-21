@@ -1,0 +1,1544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   Allatori Obfuscator v6.4 DEMO
+   Web: http://www.allatori.com
+
+   Log created: Sun Apr 18 16:12:54 GMT+08:00 2021
+-->
+
+<allatori>
+ <mapping>
+  <class old="ew.quilt.packet.PacketWriterHelper$1" new="y.y.n.ka">
+   <method old="mouseClicked(Ljava/awt/event/MouseEvent;)V" new="mouseClicked"/>
+   <method old="mouseReleased(Ljava/awt/event/MouseEvent;)V" new="mouseReleased"/>
+   <field old="this$0 Lew/quilt/packet/PacketWriterHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketWriterHelper$2" new="y.y.n.o">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyReleased(Ljava/awt/event/KeyEvent;)V" new="keyReleased"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketWriterHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.tool.data.output.LittleEndianWriter" new="y.y.y.y.y.d">
+   <method old="write(B)V" new="ALLATORIxDEMO"/>
+   <method old="write(I)V" new="l"/>
+   <method old="write([B)V" new="ALLATORIxDEMO"/>
+   <method old="writeAsciiString(Ljava/lang/String;)V" new="ALLATORIxDEMO"/>
+   <method old="writeAsciiString(Ljava/lang/String;I)V" new="ALLATORIxDEMO"/>
+   <method old="writeInt(I)V" new="a"/>
+   <method old="writeLong(J)V" new="ALLATORIxDEMO"/>
+   <method old="writeMapleAsciiString(Ljava/lang/String;)V" new="l"/>
+   <method old="writePos(Ljava/awt/Point;)V" new="ALLATORIxDEMO"/>
+   <method old="writeShort(I)V" new="ALLATORIxDEMO"/>
+   <method old="writeShort(S)V" new="ALLATORIxDEMO"/>
+   <method old="writeZeroBytes(I)V" new="D"/>
+  </class>
+  <class old="ew.quilt.packet.PacketWriterHelper$3" new="y.y.n.p">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketWriterHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketWriterHelper$4" new="y.y.n.w">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketWriterHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketWriterHelper$5" new="y.y.n.Q">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketWriterHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketWriterHelper$6" new="y.y.n.W">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketWriterHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketWriterHelper$7" new="y.y.n.x">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketWriterHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$1" new="y.y.n.N">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketWriterHelper$8" new="y.y.n.r">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketWriterHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$2" new="y.y.n.L">
+   <method old="keyReleased(Ljava/awt/event/KeyEvent;)V" new="keyReleased"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketWriterHelper$9" new="y.y.n.n">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketWriterHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$3" new="y.y.n.C">
+   <method old="keyReleased(Ljava/awt/event/KeyEvent;)V" new="keyReleased"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$4" new="y.y.n.D">
+   <method old="keyReleased(Ljava/awt/event/KeyEvent;)V" new="keyReleased"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketWriterHelper" new="y.y.n.Ia">
+   <method old="access$000(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/MouseEvent;)V" new="ALLATORIxDEMO"/>
+   <method old="access$100(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/MouseEvent;)V" new="l"/>
+   <method old="access$1000(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/ActionEvent;)V" new="a"/>
+   <method old="access$1100(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/ActionEvent;)V" new="F"/>
+   <method old="access$1200(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/ActionEvent;)V" new="D"/>
+   <method old="access$1300(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/ActionEvent;)V" new="ALLATORIxDEMO"/>
+   <method old="access$1400(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/ActionEvent;)V" new="M"/>
+   <method old="access$1500(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/ActionEvent;)V" new="j"/>
+   <method old="access$1600(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/KeyEvent;)V" new="l"/>
+   <method old="access$1700(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/KeyEvent;)V" new="I"/>
+   <method old="access$1800(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/KeyEvent;)V" new="A"/>
+   <method old="access$1900(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/KeyEvent;)V" new="c"/>
+   <method old="access$200(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/KeyEvent;)V" new="ALLATORIxDEMO"/>
+   <method old="access$2000(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/KeyEvent;)V" new="h"/>
+   <method old="access$2100(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/KeyEvent;)V" new="D"/>
+   <method old="access$2200(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/KeyEvent;)V" new="M"/>
+   <method old="access$2300(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/KeyEvent;)V" new="E"/>
+   <method old="access$2400(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/KeyEvent;)V" new="f"/>
+   <method old="access$2500(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/KeyEvent;)V" new="G"/>
+   <method old="access$2600(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/KeyEvent;)V" new="k"/>
+   <method old="access$2700(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/KeyEvent;)V" new="i"/>
+   <method old="access$2800(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/ActionEvent;)V" new="E"/>
+   <method old="access$2900(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/KeyEvent;)V" new="a"/>
+   <method old="access$300(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/KeyEvent;)V" new="F"/>
+   <method old="access$3000(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/ActionEvent;)V" new="I"/>
+   <method old="access$400(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/KeyEvent;)V" new="j"/>
+   <method old="access$500(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/ActionEvent;)V" new="l"/>
+   <method old="access$600(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/ActionEvent;)V" new="h"/>
+   <method old="access$700(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/ActionEvent;)V" new="A"/>
+   <method old="access$800(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/ActionEvent;)V" new="f"/>
+   <method old="access$900(Lew/quilt/packet/PacketWriterHelper;Ljava/awt/event/ActionEvent;)V" new="k"/>
+   <method old="appendPacketLog(ILjava/lang/String;Ljava/lang/String;)V" new="ALLATORIxDEMO"/>
+   <method old="appendPacketOPCode(S[B)V" new="ALLATORIxDEMO"/>
+   <method old="appendPacketResult([B)V" new="ALLATORIxDEMO"/>
+   <method old="appendProgramByteArray([B)V" new="a"/>
+   <method old="appendProgramOutput(Ljava/lang/String;)V" new="ALLATORIxDEMO"/>
+   <method old="appendProgramPos(Ljava/awt/Point;)V" new="ALLATORIxDEMO"/>
+   <method old="btnClearActionPerformed(Ljava/awt/event/ActionEvent;)V" new="l"/>
+   <method old="btnRedoActionPerformed(Ljava/awt/event/ActionEvent;)V" new="j"/>
+   <method old="btnUndoActionPerformed(Ljava/awt/event/ActionEvent;)V" new="a"/>
+   <method old="btnWriteActionPerformed(Ljava/awt/event/ActionEvent;)V" new="D"/>
+   <method old="btnWriteAsciiStringActionPerformed(Ljava/awt/event/ActionEvent;)V" new="f"/>
+   <method old="btnWriteByteActionPerformed(Ljava/awt/event/ActionEvent;)V" new="I"/>
+   <method old="btnWriteIntActionPerformed(Ljava/awt/event/ActionEvent;)V" new="F"/>
+   <method old="btnWriteLongActionPerformed(Ljava/awt/event/ActionEvent;)V" new="h"/>
+   <method old="btnWriteMapleAsciiStringActionPerformed(Ljava/awt/event/ActionEvent;)V" new="E"/>
+   <method old="btnWriteOPCodeActionPerformed(Ljava/awt/event/ActionEvent;)V" new="M"/>
+   <method old="btnWritePosActionPerformed(Ljava/awt/event/ActionEvent;)V" new="k"/>
+   <method old="btnWriteShortActionPerformed(Ljava/awt/event/ActionEvent;)V" new="ALLATORIxDEMO"/>
+   <method old="btnWriteZeroByteActionPerformed(Ljava/awt/event/ActionEvent;)V" new="A"/>
+   <method old="clearButtonControl()V" new="E"/>
+   <method old="clearPacketData()V" new="a"/>
+   <method old="clearState()V" new="I"/>
+   <method old="handleAutomaticInputClear(Z)V" new="l"/>
+   <method old="initAutomaticLineWarp()V" new="ALLATORIxDEMO"/>
+   <method old="initComponents()V" new="D"/>
+   <method old="main([Ljava/lang/String;)V" new="main"/>
+   <method old="opCodeButtonControl(Z)V" new="ALLATORIxDEMO"/>
+   <method old="toDefaultValue()V" new="h"/>
+   <method old="txtAreaPacketLogKeyPressed(Ljava/awt/event/KeyEvent;)V" new="a"/>
+   <method old="txtAreaPacketLogKeyTyped(Ljava/awt/event/KeyEvent;)V" new="F"/>
+   <method old="txtAreaPacketResultKeyPressed(Ljava/awt/event/KeyEvent;)V" new="A"/>
+   <method old="txtAreaPacketResultKeyReleased(Ljava/awt/event/KeyEvent;)V" new="E"/>
+   <method old="txtAreaPacketResultKeyTyped(Ljava/awt/event/KeyEvent;)V" new="M"/>
+   <method old="txtAreaPacketResultMouseClicked(Ljava/awt/event/MouseEvent;)V" new="l"/>
+   <method old="txtAreaPacketResultMouseReleased(Ljava/awt/event/MouseEvent;)V" new="ALLATORIxDEMO"/>
+   <method old="txtAreaProgramOutputKeyPressed(Ljava/awt/event/KeyEvent;)V" new="l"/>
+   <method old="txtAreaProgramOutputKeyTyped(Ljava/awt/event/KeyEvent;)V" new="f"/>
+   <method old="txtCursorIndexKeyPressed(Ljava/awt/event/KeyEvent;)V" new="k"/>
+   <method old="txtCursorIndexKeyTyped(Ljava/awt/event/KeyEvent;)V" new="I"/>
+   <method old="txtCursorPositionKeyPressed(Ljava/awt/event/KeyEvent;)V" new="i"/>
+   <method old="txtCursorPositionKeyTyped(Ljava/awt/event/KeyEvent;)V" new="h"/>
+   <method old="txtPacketLengthKeyPressed(Ljava/awt/event/KeyEvent;)V" new="j"/>
+   <method old="txtPacketLengthKeyTyped(Ljava/awt/event/KeyEvent;)V" new="c"/>
+   <method old="txtXKeyTyped(Ljava/awt/event/KeyEvent;)V" new="G"/>
+   <method old="txtYKeyTyped(Ljava/awt/event/KeyEvent;)V" new="D"/>
+   <method old="txtZeroByteKeyTyped(Ljava/awt/event/KeyEvent;)V" new="ALLATORIxDEMO"/>
+   <method old="updateCurrentCursor()V" new="k"/>
+   <method old="updateCurrentCursor(I)V" new="ALLATORIxDEMO"/>
+   <method old="updateCurrentLength()V" new="l"/>
+   <method old="updateUndoStack([B)V" new="l"/>
+   <field old="btnClear Ljavax/swing/JButton;" new="L"/>
+   <field old="btnRedo Ljavax/swing/JButton;" new="M"/>
+   <field old="btnUndo Ljavax/swing/JButton;" new="E"/>
+   <field old="btnWrite Ljavax/swing/JButton;" new="K"/>
+   <field old="btnWriteAsciiString Ljavax/swing/JButton;" new="t"/>
+   <field old="btnWriteByte Ljavax/swing/JButton;" new="i"/>
+   <field old="btnWriteInt Ljavax/swing/JButton;" new="j"/>
+   <field old="btnWriteLong Ljavax/swing/JButton;" new="v"/>
+   <field old="btnWriteMapleAsciiString Ljavax/swing/JButton;" new="B"/>
+   <field old="btnWriteOPCode Ljavax/swing/JButton;" new="O"/>
+   <field old="btnWritePos Ljavax/swing/JButton;" new="r"/>
+   <field old="btnWriteShort Ljavax/swing/JButton;" new="b"/>
+   <field old="btnWriteZeroByte Ljavax/swing/JButton;" new="x"/>
+   <field old="cbOPCodeDecHex Ljavax/swing/JComboBox;" new="A"/>
+   <field old="chkAutomaticClean Ljavax/swing/JCheckBox;" new="w"/>
+   <field old="labelColumn Ljavax/swing/JLabel;" new="c"/>
+   <field old="labelComment Ljavax/swing/JLabel;" new="R"/>
+   <field old="labelCursorIndex Ljavax/swing/JLabel;" new="e"/>
+   <field old="labelCursorPosition Ljavax/swing/JLabel;" new="F"/>
+   <field old="labelDataWrite Ljavax/swing/JLabel;" new="D"/>
+   <field old="labelPacketData Ljavax/swing/JLabel;" new="n"/>
+   <field old="labelPacketLength Ljavax/swing/JLabel;" new="g"/>
+   <field old="labelPacketOutput Ljavax/swing/JLabel;" new="W"/>
+   <field old="labelPacketResult Ljavax/swing/JLabel;" new="d"/>
+   <field old="labelPacketWrite Ljavax/swing/JLabel;" new="T"/>
+   <field old="labelPacketWriterHelper Ljavax/swing/JLabel;" new="H"/>
+   <field old="labelX Ljavax/swing/JLabel;" new="X"/>
+   <field old="lavelY Ljavax/swing/JLabel;" new="ALLATORIxDEMO"/>
+   <field old="mplew Lew/quilt/tool/data/MaplePacketLittleEndianWriter;" new="a"/>
+   <field old="panelPacketLog Ljavax/swing/JPanel;" new="p"/>
+   <field old="panelProgramOutput Ljavax/swing/JPanel;" new="f"/>
+   <field old="redoStorage Ljava/util/Stack;" new="m"/>
+   <field old="spPacketData Ljavax/swing/JScrollPane;" new="h"/>
+   <field old="spPacketLog Ljavax/swing/JScrollPane;" new="z"/>
+   <field old="spPacketResult Ljavax/swing/JScrollPane;" new="I"/>
+   <field old="spProgramOutput Ljavax/swing/JScrollPane;" new="l"/>
+   <field old="tabPanePacketOutput Ljavax/swing/JTabbedPane;" new="k"/>
+   <field old="txtAreaPacketData Ljavax/swing/JTextArea;" new="V"/>
+   <field old="txtAreaPacketLog Ljavax/swing/JTextArea;" new="G"/>
+   <field old="txtAreaPacketResult Ljavax/swing/JTextArea;" new="y"/>
+   <field old="txtAreaProgramOutput Ljavax/swing/JTextArea;" new="u"/>
+   <field old="txtComment Ljavax/swing/JTextField;" new="U"/>
+   <field old="txtCursorIndex Ljavax/swing/JTextField;" new="J"/>
+   <field old="txtCursorPosition Ljavax/swing/JTextField;" new="C"/>
+   <field old="txtPacketLength Ljavax/swing/JTextField;" new="N"/>
+   <field old="txtX Ljavax/swing/JTextField;" new="q"/>
+   <field old="txtY Ljavax/swing/JTextField;" new="Y"/>
+   <field old="txtZeroByte Ljavax/swing/JTextField;" new="S"/>
+   <field old="undoStorage Ljava/util/Stack;" new="Z"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$30" new="y.y.n.Oa">
+   <method old="keyReleased(Ljava/awt/event/KeyEvent;)V" new="keyReleased"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$5" new="y.y.n.E">
+   <method old="keyReleased(Ljava/awt/event/KeyEvent;)V" new="keyReleased"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$31" new="y.y.n.Ta">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$6" new="y.y.n.M">
+   <method old="keyReleased(Ljava/awt/event/KeyEvent;)V" new="keyReleased"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$32" new="y.y.n.Ua">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$7" new="y.y.n.g">
+   <method old="keyReleased(Ljava/awt/event/KeyEvent;)V" new="keyReleased"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$33" new="y.y.n.Ya">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$8" new="y.y.n.G">
+   <method old="keyReleased(Ljava/awt/event/KeyEvent;)V" new="keyReleased"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$34" new="y.y.n.wa">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$9" new="y.y.n.d">
+   <method old="keyReleased(Ljava/awt/event/KeyEvent;)V" new="keyReleased"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$35" new="y.y.n.na">
+   <method old="run()V" new="run"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper" new="y.y.n.rB">
+   <method old="access$000(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/MouseEvent;)V" new="l"/>
+   <method old="access$100(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/MouseEvent;)V" new="ALLATORIxDEMO"/>
+   <method old="access$1000(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/ActionEvent;)V" new="j"/>
+   <method old="access$1100(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/ActionEvent;)V" new="E"/>
+   <method old="access$1200(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/ActionEvent;)V" new="I"/>
+   <method old="access$1300(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/ActionEvent;)V" new="D"/>
+   <method old="access$1400(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="z"/>
+   <method old="access$1500(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="l"/>
+   <method old="access$1600(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="P"/>
+   <method old="access$1700(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="d"/>
+   <method old="access$1800(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="H"/>
+   <method old="access$1900(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="O"/>
+   <method old="access$200(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="k"/>
+   <method old="access$2000(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="X"/>
+   <method old="access$2100(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="e"/>
+   <method old="access$2200(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="h"/>
+   <method old="access$2300(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="ALLATORIxDEMO"/>
+   <method old="access$2400(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="g"/>
+   <method old="access$2500(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="m"/>
+   <method old="access$2600(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="i"/>
+   <method old="access$2700(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/ActionEvent;)V" new="k"/>
+   <method old="access$2800(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/ActionEvent;)V" new="f"/>
+   <method old="access$2900(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="r"/>
+   <method old="access$300(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="c"/>
+   <method old="access$3000(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="J"/>
+   <method old="access$3100(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/ActionEvent;)V" new="F"/>
+   <method old="access$3200(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="M"/>
+   <method old="access$3300(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="a"/>
+   <method old="access$3400(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/ActionEvent;)V" new="c"/>
+   <method old="access$3500(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/ActionEvent;)V" new="G"/>
+   <method old="access$3600(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/ActionEvent;)V" new="ALLATORIxDEMO"/>
+   <method old="access$3700(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="E"/>
+   <method old="access$3800(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="j"/>
+   <method old="access$3900(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="D"/>
+   <method old="access$400(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="K"/>
+   <method old="access$4000(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="f"/>
+   <method old="access$4100(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="b"/>
+   <method old="access$4200(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="G"/>
+   <method old="access$4300(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="N"/>
+   <method old="access$4400(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="C"/>
+   <method old="access$4500(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="L"/>
+   <method old="access$4600(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="I"/>
+   <method old="access$4700(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="A"/>
+   <method old="access$4800(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="B"/>
+   <method old="access$4900(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="y"/>
+   <method old="access$500(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/ActionEvent;)V" new="a"/>
+   <method old="access$5000(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/KeyEvent;)V" new="F"/>
+   <method old="access$5100(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/ActionEvent;)V" new="h"/>
+   <method old="access$600(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/ActionEvent;)V" new="i"/>
+   <method old="access$700(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/ActionEvent;)V" new="A"/>
+   <method old="access$800(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/ActionEvent;)V" new="M"/>
+   <method old="access$900(Lew/quilt/packet/PacketReaderHelper;Ljava/awt/event/ActionEvent;)V" new="l"/>
+   <method old="appendOPCode(Ljava/lang/String;)V" new="ALLATORIxDEMO"/>
+   <method old="appendPacketOutput(ILjava/lang/String;Ljava/lang/String;)V" new="ALLATORIxDEMO"/>
+   <method old="appendProgramOutput(Ljava/lang/String;Ljava/lang/String;)V" new="ALLATORIxDEMO"/>
+   <method old="appendProgramSkip(I)V" new="l"/>
+   <method old="btnAnalysisActionPerformed(Ljava/awt/event/ActionEvent;)V" new="f"/>
+   <method old="btnClearActionPerformed(Ljava/awt/event/ActionEvent;)V" new="h"/>
+   <method old="btnCurrentCursorActionPerformed(Ljava/awt/event/ActionEvent;)V" new="A"/>
+   <method old="btnReadActionPerformed(Ljava/awt/event/ActionEvent;)V" new="l"/>
+   <method old="btnReadAsciiStringActionPerformed(Ljava/awt/event/ActionEvent;)V" new="E"/>
+   <method old="btnReadByteActionPerformed(Ljava/awt/event/ActionEvent;)V" new="i"/>
+   <method old="btnReadIntActionPerformed(Ljava/awt/event/ActionEvent;)V" new="F"/>
+   <method old="btnReadLongActionPerformed(Ljava/awt/event/ActionEvent;)V" new="D"/>
+   <method old="btnReadMapleAsciiStringActionPerformed(Ljava/awt/event/ActionEvent;)V" new="M"/>
+   <method old="btnReadPosActionPerformed(Ljava/awt/event/ActionEvent;)V" new="k"/>
+   <method old="btnReadShortActionPerformed(Ljava/awt/event/ActionEvent;)V" new="a"/>
+   <method old="btnRedoActionPerformed(Ljava/awt/event/ActionEvent;)V" new="I"/>
+   <method old="btnTryStringActionPerformed(Ljava/awt/event/ActionEvent;)V" new="G"/>
+   <method old="btnUndoActionPerformed(Ljava/awt/event/ActionEvent;)V" new="c"/>
+   <method old="buttonControl(Z)V" new="ALLATORIxDEMO"/>
+   <method old="checkPacketName()Z" new="ALLATORIxDEMO"/>
+   <method old="checkStringLength()I" new="ALLATORIxDEMO"/>
+   <method old="clearPacketData()V" new="a"/>
+   <method old="clearState()V" new="E"/>
+   <method old="getPacket()[B" new="ALLATORIxDEMO"/>
+   <method old="getPacketName()Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="initComponents()V" new="I"/>
+   <method old="initExtraComponent()V" new="D"/>
+   <method old="main([Ljava/lang/String;)V" new="main"/>
+   <method old="rbDecActionPerformed(Ljava/awt/event/ActionEvent;)V" new="ALLATORIxDEMO"/>
+   <method old="rbHexActionPerformed(Ljava/awt/event/ActionEvent;)V" new="j"/>
+   <method old="toDefaultValue()V" new="h"/>
+   <method old="txtAllKeyPressed(Ljava/awt/event/KeyEvent;)V" new="e"/>
+   <method old="txtAllKeyTyped(Ljava/awt/event/KeyEvent;)V" new="g"/>
+   <method old="txtAreaPacketFieldKeyPressed(Ljava/awt/event/KeyEvent;)V" new="y"/>
+   <method old="txtAreaPacketFieldKeyReleased(Ljava/awt/event/KeyEvent;)V" new="C"/>
+   <method old="txtAreaPacketFieldKeyTyped(Ljava/awt/event/KeyEvent;)V" new="H"/>
+   <method old="txtAreaPacketFieldMouseClicked(Ljava/awt/event/MouseEvent;)V" new="l"/>
+   <method old="txtAreaPacketFieldMouseReleased(Ljava/awt/event/MouseEvent;)V" new="ALLATORIxDEMO"/>
+   <method old="txtAreaPacketOutputKeyPressed(Ljava/awt/event/KeyEvent;)V" new="I"/>
+   <method old="txtAreaPacketOutputKeyTyped(Ljava/awt/event/KeyEvent;)V" new="k"/>
+   <method old="txtAreaProgramOutputKeyPressed(Ljava/awt/event/KeyEvent;)V" new="X"/>
+   <method old="txtAreaProgramOutputKeyTyped(Ljava/awt/event/KeyEvent;)V" new="L"/>
+   <method old="txtAsciiStringKeyPressed(Ljava/awt/event/KeyEvent;)V" new="A"/>
+   <method old="txtAsciiStringKeyTyped(Ljava/awt/event/KeyEvent;)V" new="N"/>
+   <method old="txtByteKeyPressed(Ljava/awt/event/KeyEvent;)V" new="D"/>
+   <method old="txtByteKeyTyped(Ljava/awt/event/KeyEvent;)V" new="E"/>
+   <method old="txtCurrentKeyPressed(Ljava/awt/event/KeyEvent;)V" new="j"/>
+   <method old="txtCurrentKeyTyped(Ljava/awt/event/KeyEvent;)V" new="d"/>
+   <method old="txtCursorIndexKeyPressed(Ljava/awt/event/KeyEvent;)V" new="P"/>
+   <method old="txtCursorIndexKeyTyped(Ljava/awt/event/KeyEvent;)V" new="ALLATORIxDEMO"/>
+   <method old="txtCursorPositionKeyPressed(Ljava/awt/event/KeyEvent;)V" new="l"/>
+   <method old="txtCursorPositionKeyTyped(Ljava/awt/event/KeyEvent;)V" new="a"/>
+   <method old="txtIntegerKeyPressed(Ljava/awt/event/KeyEvent;)V" new="F"/>
+   <method old="txtIntegerKeyTyped(Ljava/awt/event/KeyEvent;)V" new="c"/>
+   <method old="txtLongKeyPressed(Ljava/awt/event/KeyEvent;)V" new="M"/>
+   <method old="txtLongKeyTyped(Ljava/awt/event/KeyEvent;)V" new="z"/>
+   <method old="txtMapleAsciiStringKeyPressed(Ljava/awt/event/KeyEvent;)V" new="O"/>
+   <method old="txtMapleAsciiStringKeyTyped(Ljava/awt/event/KeyEvent;)V" new="i"/>
+   <method old="txtPositionXKeyPressed(Ljava/awt/event/KeyEvent;)V" new="K"/>
+   <method old="txtPositionXKeyTyped(Ljava/awt/event/KeyEvent;)V" new="r"/>
+   <method old="txtPositionYKeyPressed(Ljava/awt/event/KeyEvent;)V" new="m"/>
+   <method old="txtPositionYKeyTyped(Ljava/awt/event/KeyEvent;)V" new="f"/>
+   <method old="txtReadLengthKeyTyped(Ljava/awt/event/KeyEvent;)V" new="b"/>
+   <method old="txtShortKeyPressed(Ljava/awt/event/KeyEvent;)V" new="G"/>
+   <method old="txtShortKeyTyped(Ljava/awt/event/KeyEvent;)V" new="B"/>
+   <method old="txtStringLengthKeyReleased(Ljava/awt/event/KeyEvent;)V" new="h"/>
+   <method old="txtStringLengthKeyTyped(Ljava/awt/event/KeyEvent;)V" new="J"/>
+   <method old="updateCurrentCursor()V" new="ALLATORIxDEMO"/>
+   <method old="updateCurrentIndex()V" new="f"/>
+   <method old="updateCurrentPacket()V" new="l"/>
+   <method old="updateCurrentPacket(I)V" new="a"/>
+   <method old="updateSamePacketName()V" new="k"/>
+   <method old="updateUndoStack(I)V" new="ALLATORIxDEMO"/>
+   <field old="analysis Z" new="R"/>
+   <field old="bgDecHex Ljavax/swing/ButtonGroup;" new="p"/>
+   <field old="btnAnalysis Ljavax/swing/JButton;" new="ea"/>
+   <field old="btnClear Ljavax/swing/JButton;" new="Ba"/>
+   <field old="btnCurrentCursor Ljavax/swing/JButton;" new="o"/>
+   <field old="btnRead Ljavax/swing/JButton;" new="S"/>
+   <field old="btnReadAsciiString Ljavax/swing/JButton;" new="h"/>
+   <field old="btnReadByte Ljavax/swing/JButton;" new="H"/>
+   <field old="btnReadInt Ljavax/swing/JButton;" new="Ga"/>
+   <field old="btnReadLong Ljavax/swing/JButton;" new="ga"/>
+   <field old="btnReadMapleAsciiString Ljavax/swing/JButton;" new="la"/>
+   <field old="btnReadPos Ljavax/swing/JButton;" new="r"/>
+   <field old="btnReadShort Ljavax/swing/JButton;" new="Z"/>
+   <field old="btnRedo Ljavax/swing/JButton;" new="d"/>
+   <field old="btnTryString Ljavax/swing/JButton;" new="B"/>
+   <field old="btnUndo Ljavax/swing/JButton;" new="v"/>
+   <field old="chkContainOPCode Ljavax/swing/JCheckBox;" new="t"/>
+   <field old="chkSkip Ljavax/swing/JCheckBox;" new="ma"/>
+   <field old="currentNoName I" new="k"/>
+   <field old="labelAll Ljavax/swing/JLabel;" new="T"/>
+   <field old="labelAsciiString Ljavax/swing/JLabel;" new="z"/>
+   <field old="labelByte Ljavax/swing/JLabel;" new="l"/>
+   <field old="labelColumn Ljavax/swing/JLabel;" new="P"/>
+   <field old="labelComment Ljavax/swing/JLabel;" new="L"/>
+   <field old="labelCurrent Ljavax/swing/JLabel;" new="M"/>
+   <field old="labelCurrentStatus Ljavax/swing/JLabel;" new="s"/>
+   <field old="labelCursorIndex Ljavax/swing/JLabel;" new="a"/>
+   <field old="labelCursortPosition Ljavax/swing/JLabel;" new="G"/>
+   <field old="labelInteger Ljavax/swing/JLabel;" new="Y"/>
+   <field old="labelLong Ljavax/swing/JLabel;" new="n"/>
+   <field old="labelMapleAsciiString Ljavax/swing/JLabel;" new="ba"/>
+   <field old="labelPacketAnalysis Ljavax/swing/JLabel;" new="F"/>
+   <field old="labelPacketName Ljavax/swing/JLabel;" new="I"/>
+   <field old="labelPacketOutput Ljavax/swing/JLabel;" new="ka"/>
+   <field old="labelPacketReaderHelper Ljavax/swing/JLabel;" new="q"/>
+   <field old="labelPacketTip Ljavax/swing/JLabel;" new="m"/>
+   <field old="labelPosition Ljavax/swing/JLabel;" new="u"/>
+   <field old="labelPositionX Ljavax/swing/JLabel;" new="E"/>
+   <field old="labelPositionY Ljavax/swing/JLabel;" new="b"/>
+   <field old="labelShort Ljavax/swing/JLabel;" new="da"/>
+   <field old="labelWarning Ljavax/swing/JLabel;" new="C"/>
+   <field old="packetName Ljava/util/Stack;" new="y"/>
+   <field old="panelPacketOutput Ljavax/swing/JPanel;" new="c"/>
+   <field old="panelProgramOutput Ljavax/swing/JPanel;" new="X"/>
+   <field old="rbDec Ljavax/swing/JRadioButton;" new="Ha"/>
+   <field old="rbHex Ljavax/swing/JRadioButton;" new="aa"/>
+   <field old="redoStorage Ljava/util/Stack;" new="g"/>
+   <field old="slea Lew/quilt/tool/data/LittleEndianAccessor;" new="K"/>
+   <field old="spPacketField Ljavax/swing/JScrollPane;" new="O"/>
+   <field old="spPacketOutput Ljavax/swing/JScrollPane;" new="ia"/>
+   <field old="spProgramOutput Ljavax/swing/JScrollPane;" new="U"/>
+   <field old="tabPanePacketOutput Ljavax/swing/JTabbedPane;" new="ALLATORIxDEMO"/>
+   <field old="txtAll Ljavax/swing/JTextField;" new="Ca"/>
+   <field old="txtAreaPacketField Ljavax/swing/JTextArea;" new="ha"/>
+   <field old="txtAreaPacketOutput Ljavax/swing/JTextArea;" new="Ea"/>
+   <field old="txtAreaProgramOutput Ljavax/swing/JTextArea;" new="W"/>
+   <field old="txtAsciiString Ljavax/swing/JTextField;" new="x"/>
+   <field old="txtByte Ljavax/swing/JTextField;" new="Ma"/>
+   <field old="txtComment Ljavax/swing/JTextField;" new="f"/>
+   <field old="txtCurrent Ljavax/swing/JTextField;" new="j"/>
+   <field old="txtCursorIndex Ljavax/swing/JTextField;" new="Ia"/>
+   <field old="txtCursorPosition Ljavax/swing/JTextField;" new="Ja"/>
+   <field old="txtInteger Ljavax/swing/JTextField;" new="N"/>
+   <field old="txtLong Ljavax/swing/JTextField;" new="w"/>
+   <field old="txtMapleAsciiString Ljavax/swing/JTextField;" new="A"/>
+   <field old="txtPacketName Ljavax/swing/JTextField;" new="V"/>
+   <field old="txtPositionX Ljavax/swing/JTextField;" new="i"/>
+   <field old="txtPositionY Ljavax/swing/JTextField;" new="e"/>
+   <field old="txtReadLength Ljavax/swing/JTextField;" new="D"/>
+   <field old="txtShort Ljavax/swing/JTextField;" new="ca"/>
+   <field old="txtStringLength Ljavax/swing/JTextField;" new="Q"/>
+   <field old="undoStorage Ljava/util/Stack;" new="J"/>
+  </class>
+  <class old="ew.quilt.tool.data.input.ByteInputStream" new="y.y.y.y.n.d">
+   <method old="available()J" new="l"/>
+   <method old="getBytesRead()J" new="ALLATORIxDEMO"/>
+   <method old="readByte()I" new="ALLATORIxDEMO"/>
+   <method old="toString(Z)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.tool.data.input.SeekableInputStreamBytestream" new="y.y.y.y.n.G">
+   <method old="available()J" new="l"/>
+   <method old="getBytesRead()J" new="ALLATORIxDEMO"/>
+   <method old="getPosition()J" new="a"/>
+   <method old="readByte()I" new="ALLATORIxDEMO"/>
+   <method old="seek(J)V" new="ALLATORIxDEMO"/>
+   <method old="toString(Z)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.tool.data.input.ByteArrayByteStream" new="y.y.y.y.n.a">
+   <method old="available()J" new="l"/>
+   <method old="getBytesRead()J" new="ALLATORIxDEMO"/>
+   <method old="getPosition()J" new="a"/>
+   <method old="readByte()I" new="ALLATORIxDEMO"/>
+   <method old="seek(J)V" new="ALLATORIxDEMO"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <method old="toString(Z)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <field old="arr [B" new="g"/>
+   <field old="bytesRead J" new="A"/>
+   <field old="pos I" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter" new="y.y.n.R">
+   <method old="access$000(Lew/quilt/packet/RadixConverter;Ljava/awt/event/ActionEvent;)V" new="ALLATORIxDEMO"/>
+   <method old="access$100(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="h"/>
+   <method old="access$1000(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="V"/>
+   <method old="access$1100(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="J"/>
+   <method old="access$1200(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="t"/>
+   <method old="access$1300(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="u"/>
+   <method old="access$1400(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="W"/>
+   <method old="access$1500(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="d"/>
+   <method old="access$1600(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="Q"/>
+   <method old="access$1700(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="v"/>
+   <method old="access$1800(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="ALLATORIxDEMO"/>
+   <method old="access$1900(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="F"/>
+   <method old="access$200(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="i"/>
+   <method old="access$2000(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="L"/>
+   <method old="access$2100(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="D"/>
+   <method old="access$2200(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="X"/>
+   <method old="access$2300(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="B"/>
+   <method old="access$2400(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="E"/>
+   <method old="access$2500(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="r"/>
+   <method old="access$2600(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="b"/>
+   <method old="access$2700(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="z"/>
+   <method old="access$2800(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="P"/>
+   <method old="access$2900(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="K"/>
+   <method old="access$300(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="l"/>
+   <method old="access$3000(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="N"/>
+   <method old="access$3100(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="g"/>
+   <method old="access$3200(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="e"/>
+   <method old="access$3300(Lew/quilt/packet/RadixConverter;Ljava/awt/event/ActionEvent;)V" new="D"/>
+   <method old="access$3400(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="R"/>
+   <method old="access$3500(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="k"/>
+   <method old="access$3600(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="A"/>
+   <method old="access$3700(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="p"/>
+   <method old="access$3800(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="O"/>
+   <method old="access$3900(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="Y"/>
+   <method old="access$400(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="c"/>
+   <method old="access$4000(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="m"/>
+   <method old="access$4100(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="n"/>
+   <method old="access$4200(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="a"/>
+   <method old="access$4300(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="H"/>
+   <method old="access$4400(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="j"/>
+   <method old="access$4500(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="o"/>
+   <method old="access$4600(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="f"/>
+   <method old="access$4700(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="U"/>
+   <method old="access$4800(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="G"/>
+   <method old="access$4900(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="s"/>
+   <method old="access$500(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="I"/>
+   <method old="access$5000(Lew/quilt/packet/RadixConverter;Ljava/awt/event/ActionEvent;)V" new="l"/>
+   <method old="access$5100(Lew/quilt/packet/RadixConverter;Ljava/awt/event/ActionEvent;)V" new="a"/>
+   <method old="access$5200(Lew/quilt/packet/RadixConverter;Ljava/awt/event/ActionEvent;)V" new="I"/>
+   <method old="access$600(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="y"/>
+   <method old="access$700(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="M"/>
+   <method old="access$800(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="C"/>
+   <method old="access$900(Lew/quilt/packet/RadixConverter;Ljava/awt/event/KeyEvent;)V" new="w"/>
+   <method old="btnCalcActionPerformed(Ljava/awt/event/ActionEvent;)V" new="I"/>
+   <method old="btnClearActionPerformed(Ljava/awt/event/ActionEvent;)V" new="ALLATORIxDEMO"/>
+   <method old="cbModeActionPerformed(Ljava/awt/event/ActionEvent;)V" new="a"/>
+   <method old="clearLeftInput()V" new="l"/>
+   <method old="clearRightInput()V" new="ALLATORIxDEMO"/>
+   <method old="initComponents()V" new="D"/>
+   <method old="main([Ljava/lang/String;)V" new="main"/>
+   <method old="tBtnExpressionNegativeActionPerformed(Ljava/awt/event/ActionEvent;)V" new="D"/>
+   <method old="tBtnRadixNegativeActionPerformed(Ljava/awt/event/ActionEvent;)V" new="l"/>
+   <method old="txtANDBinKeyPressed(Ljava/awt/event/KeyEvent;)V" new="N"/>
+   <method old="txtANDBinKeyTyped(Ljava/awt/event/KeyEvent;)V" new="C"/>
+   <method old="txtANDDecKeyPressed(Ljava/awt/event/KeyEvent;)V" new="X"/>
+   <method old="txtANDDecKeyTyped(Ljava/awt/event/KeyEvent;)V" new="h"/>
+   <method old="txtANDHexKeyPressed(Ljava/awt/event/KeyEvent;)V" new="k"/>
+   <method old="txtANDHexKeyTyped(Ljava/awt/event/KeyEvent;)V" new="f"/>
+   <method old="txtANDOctKeyPressed(Ljava/awt/event/KeyEvent;)V" new="l"/>
+   <method old="txtANDOctKeyTyped(Ljava/awt/event/KeyEvent;)V" new="n"/>
+   <method old="txtExpressionBinKeyReleased(Ljava/awt/event/KeyEvent;)V" new="e"/>
+   <method old="txtExpressionBinKeyTyped(Ljava/awt/event/KeyEvent;)V" new="Y"/>
+   <method old="txtExpressionDecKeyReleased(Ljava/awt/event/KeyEvent;)V" new="d"/>
+   <method old="txtExpressionDecKeyTyped(Ljava/awt/event/KeyEvent;)V" new="b"/>
+   <method old="txtExpressionHexKeyReleased(Ljava/awt/event/KeyEvent;)V" new="V"/>
+   <method old="txtExpressionHexKeyTyped(Ljava/awt/event/KeyEvent;)V" new="Q"/>
+   <method old="txtExpressionOctKeyReleased(Ljava/awt/event/KeyEvent;)V" new="D"/>
+   <method old="txtExpressionOctKeyTyped(Ljava/awt/event/KeyEvent;)V" new="G"/>
+   <method old="txtNOTBinKeyPressed(Ljava/awt/event/KeyEvent;)V" new="i"/>
+   <method old="txtNOTBinKeyTyped(Ljava/awt/event/KeyEvent;)V" new="F"/>
+   <method old="txtNOTDecKeyPressed(Ljava/awt/event/KeyEvent;)V" new="M"/>
+   <method old="txtNOTDecKeyTyped(Ljava/awt/event/KeyEvent;)V" new="P"/>
+   <method old="txtNOTHexKeyPressed(Ljava/awt/event/KeyEvent;)V" new="p"/>
+   <method old="txtNOTHexKeyTyped(Ljava/awt/event/KeyEvent;)V" new="t"/>
+   <method old="txtNOTOctKeyPressed(Ljava/awt/event/KeyEvent;)V" new="H"/>
+   <method old="txtNOTOctKeyTyped(Ljava/awt/event/KeyEvent;)V" new="o"/>
+   <method old="txtORBinKeyPressed(Ljava/awt/event/KeyEvent;)V" new="w"/>
+   <method old="txtORBinKeyTyped(Ljava/awt/event/KeyEvent;)V" new="u"/>
+   <method old="txtORDecKeyPressed(Ljava/awt/event/KeyEvent;)V" new="W"/>
+   <method old="txtORDecKeyTyped(Ljava/awt/event/KeyEvent;)V" new="J"/>
+   <method old="txtORHexKeyPressed(Ljava/awt/event/KeyEvent;)V" new="K"/>
+   <method old="txtORHexKeyTyped(Ljava/awt/event/KeyEvent;)V" new="U"/>
+   <method old="txtOROctKeyPressed(Ljava/awt/event/KeyEvent;)V" new="I"/>
+   <method old="txtOROctKeyTyped(Ljava/awt/event/KeyEvent;)V" new="g"/>
+   <method old="txtRadixBinKeyReleased(Ljava/awt/event/KeyEvent;)V" new="O"/>
+   <method old="txtRadixBinKeyTyped(Ljava/awt/event/KeyEvent;)V" new="a"/>
+   <method old="txtRadixDecKeyReleased(Ljava/awt/event/KeyEvent;)V" new="j"/>
+   <method old="txtRadixDecKeyTyped(Ljava/awt/event/KeyEvent;)V" new="L"/>
+   <method old="txtRadixHexKeyReleased(Ljava/awt/event/KeyEvent;)V" new="R"/>
+   <method old="txtRadixHexKeyTyped(Ljava/awt/event/KeyEvent;)V" new="y"/>
+   <method old="txtRadixOctKeyReleased(Ljava/awt/event/KeyEvent;)V" new="E"/>
+   <method old="txtRadixOctKeyTyped(Ljava/awt/event/KeyEvent;)V" new="z"/>
+   <method old="txtXORBinKeyPressed(Ljava/awt/event/KeyEvent;)V" new="v"/>
+   <method old="txtXORBinKeyTyped(Ljava/awt/event/KeyEvent;)V" new="r"/>
+   <method old="txtXORDecKeyPressed(Ljava/awt/event/KeyEvent;)V" new="B"/>
+   <method old="txtXORDecKeyTyped(Ljava/awt/event/KeyEvent;)V" new="c"/>
+   <method old="txtXORHexKeyPressed(Ljava/awt/event/KeyEvent;)V" new="ALLATORIxDEMO"/>
+   <method old="txtXORHexKeyTyped(Ljava/awt/event/KeyEvent;)V" new="A"/>
+   <method old="txtXOROctKeyPressed(Ljava/awt/event/KeyEvent;)V" new="m"/>
+   <method old="txtXOROctKeyTyped(Ljava/awt/event/KeyEvent;)V" new="s"/>
+   <method old="updateLeftConvert(Ljavax/swing/JTextField;)V" new="l"/>
+   <method old="updateLeftConvert(Ljavax/swing/JTextField;Z)V" new="l"/>
+   <method old="updateLogicResult()V" new="a"/>
+   <method old="updateNOT()V" new="I"/>
+   <method old="updateRightConvert(Ljavax/swing/JTextField;)V" new="ALLATORIxDEMO"/>
+   <method old="updateRightConvert(Ljavax/swing/JTextField;Z)V" new="ALLATORIxDEMO"/>
+   <field old="btnCalc Ljavax/swing/JButton;" new="g"/>
+   <field old="btnClear Ljavax/swing/JButton;" new="V"/>
+   <field old="cbMode Ljavax/swing/JComboBox;" new="x"/>
+   <field old="labelAND Ljavax/swing/JLabel;" new="c"/>
+   <field old="labelExpression Ljavax/swing/JLabel;" new="D"/>
+   <field old="labelLeftWarning Ljavax/swing/JLabel;" new="n"/>
+   <field old="labelLogic Ljavax/swing/JLabel;" new="C"/>
+   <field old="labelLogicBin Ljavax/swing/JLabel;" new="q"/>
+   <field old="labelLogicDec Ljavax/swing/JLabel;" new="N"/>
+   <field old="labelLogicHex Ljavax/swing/JLabel;" new="X"/>
+   <field old="labelLogicOct Ljavax/swing/JLabel;" new="Y"/>
+   <field old="labelMode Ljavax/swing/JLabel;" new="j"/>
+   <field old="labelNOT Ljavax/swing/JLabel;" new="r"/>
+   <field old="labelOR Ljavax/swing/JLabel;" new="U"/>
+   <field old="labelRadix Ljavax/swing/JLabel;" new="k"/>
+   <field old="labelRadixBin Ljavax/swing/JLabel;" new="l"/>
+   <field old="labelRadixDec Ljavax/swing/JLabel;" new="G"/>
+   <field old="labelRadixHex Ljavax/swing/JLabel;" new="L"/>
+   <field old="labelRadixOct Ljavax/swing/JLabel;" new="F"/>
+   <field old="labelRightWarning Ljavax/swing/JLabel;" new="T"/>
+   <field old="labelTitle Ljavax/swing/JLabel;" new="b"/>
+   <field old="labelXOR Ljavax/swing/JLabel;" new="h"/>
+   <field old="tBtnExpressionNegative Ljavax/swing/JToggleButton;" new="v"/>
+   <field old="tBtnRadixNegative Ljavax/swing/JToggleButton;" new="t"/>
+   <field old="txtANDBin Ljavax/swing/JTextField;" new="I"/>
+   <field old="txtANDDec Ljavax/swing/JTextField;" new="e"/>
+   <field old="txtANDHex Ljavax/swing/JTextField;" new="R"/>
+   <field old="txtANDOct Ljavax/swing/JTextField;" new="f"/>
+   <field old="txtExpressionBin Ljavax/swing/JTextField;" new="i"/>
+   <field old="txtExpressionDec Ljavax/swing/JTextField;" new="Z"/>
+   <field old="txtExpressionHex Ljavax/swing/JTextField;" new="w"/>
+   <field old="txtExpressionOct Ljavax/swing/JTextField;" new="E"/>
+   <field old="txtNOTBin Ljavax/swing/JTextField;" new="a"/>
+   <field old="txtNOTDec Ljavax/swing/JTextField;" new="W"/>
+   <field old="txtNOTHex Ljavax/swing/JTextField;" new="M"/>
+   <field old="txtNOTOct Ljavax/swing/JTextField;" new="S"/>
+   <field old="txtORBin Ljavax/swing/JTextField;" new="H"/>
+   <field old="txtORDec Ljavax/swing/JTextField;" new="B"/>
+   <field old="txtORHex Ljavax/swing/JTextField;" new="ALLATORIxDEMO"/>
+   <field old="txtOROct Ljavax/swing/JTextField;" new="p"/>
+   <field old="txtRadixBin Ljavax/swing/JTextField;" new="A"/>
+   <field old="txtRadixDec Ljavax/swing/JTextField;" new="J"/>
+   <field old="txtRadixHex Ljavax/swing/JTextField;" new="O"/>
+   <field old="txtRadixOct Ljavax/swing/JTextField;" new="K"/>
+   <field old="txtXORBin Ljavax/swing/JTextField;" new="m"/>
+   <field old="txtXORDec Ljavax/swing/JTextField;" new="d"/>
+   <field old="txtXORHex Ljavax/swing/JTextField;" new="z"/>
+   <field old="txtXOROct Ljavax/swing/JTextField;" new="u"/>
+  </class>
+  <class old="ew.quilt.exception.PacketStringWrongSizeException" new="y.y.j.d">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.tool.data.LittleEndianAccessor" new="y.y.y.y.G">
+   <method old="available()J" new="D"/>
+   <method old="getAsciiString(II)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="getByte(I)B" new="ALLATORIxDEMO"/>
+   <method old="getBytes(II)[B" new="ALLATORIxDEMO"/>
+   <method old="getBytesRead()J" new="I"/>
+   <method old="getInt(I)I" new="ALLATORIxDEMO"/>
+   <method old="getLength()I" new="D"/>
+   <method old="getLong(I)J" new="ALLATORIxDEMO"/>
+   <method old="getMapleAsciiString(I)Ljava/lang/String;" new="a"/>
+   <method old="getPacket()[B" new="ALLATORIxDEMO"/>
+   <method old="getPos(I)Ljava/awt/Point;" new="ALLATORIxDEMO"/>
+   <method old="getPosition()J" new="a"/>
+   <method old="getShort(I)S" new="ALLATORIxDEMO"/>
+   <method old="getlength()I" new="l"/>
+   <method old="read(I)[B" new="l"/>
+   <method old="readAsciiString(I)Ljava/lang/String;" new="l"/>
+   <method old="readByte()B" new="ALLATORIxDEMO"/>
+   <method old="readChar()C" new="ALLATORIxDEMO"/>
+   <method old="readDouble()D" new="ALLATORIxDEMO"/>
+   <method old="readFloat()F" new="ALLATORIxDEMO"/>
+   <method old="readInt()I" new="a"/>
+   <method old="readLastAsciiString(I)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="readLastByte()B" new="l"/>
+   <method old="readLastBytes(I)[B" new="a"/>
+   <method old="readLastInt()I" new="ALLATORIxDEMO"/>
+   <method old="readLastLong()J" new="h"/>
+   <method old="readLastPos()Ljava/awt/Point;" new="l"/>
+   <method old="readLastShort()S" new="ALLATORIxDEMO"/>
+   <method old="readLong()J" new="ALLATORIxDEMO"/>
+   <method old="readLongLegacy()J" new="l"/>
+   <method old="readMapleAsciiString()Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="readPos()Ljava/awt/Point;" new="ALLATORIxDEMO"/>
+   <method old="readShort()S" new="l"/>
+   <method old="readUShort()I" new="I"/>
+   <method old="seek(J)V" new="ALLATORIxDEMO"/>
+   <method old="skip(I)V" new="l"/>
+   <method old="subByteArray(I)[B" new="ALLATORIxDEMO"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <method old="toString(Z)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="unRead(I)V" new="ALLATORIxDEMO"/>
+   <method old="unReadAsciiString(I)V" new="a"/>
+   <method old="unReadByte()V" new="l"/>
+   <method old="unReadInt()V" new="a"/>
+   <method old="unReadLong()V" new="ALLATORIxDEMO"/>
+   <method old="unReadPos()V" new="D"/>
+   <method old="unReadShort()V" new="I"/>
+   <field old="bs Lew/quilt/tool/data/ByteArrayByteStream;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.tool.data.input.LittleEndianAccessor" new="y.y.y.y.n.g">
+   <method old="available()J" new="ALLATORIxDEMO"/>
+   <method old="getBytesRead()J" new="l"/>
+   <method old="read(I)[B" new="ALLATORIxDEMO"/>
+   <method old="readAsciiString(I)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="readByte()B" new="ALLATORIxDEMO"/>
+   <method old="readByteAsInt()I" new="ALLATORIxDEMO"/>
+   <method old="readChar()C" new="ALLATORIxDEMO"/>
+   <method old="readDouble()D" new="ALLATORIxDEMO"/>
+   <method old="readFloat()F" new="ALLATORIxDEMO"/>
+   <method old="readInt()I" new="l"/>
+   <method old="readLong()J" new="a"/>
+   <method old="readMapleAsciiString()Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="readPos()Ljava/awt/Point;" new="ALLATORIxDEMO"/>
+   <method old="readShort()S" new="ALLATORIxDEMO"/>
+   <method old="skip(I)V" new="ALLATORIxDEMO"/>
+   <method old="toString(Z)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketConverter" new="y.y.n.zC">
+   <method old="access$000(Lew/quilt/packet/PacketConverter;Ljava/awt/event/ActionEvent;)V" new="l"/>
+   <method old="access$100(Lew/quilt/packet/PacketConverter;Ljava/awt/event/ActionEvent;)V" new="ALLATORIxDEMO"/>
+   <method old="access$200(Lew/quilt/packet/PacketConverter;Ljava/awt/event/KeyEvent;)V" new="l"/>
+   <method old="access$300(Lew/quilt/packet/PacketConverter;Ljava/awt/event/KeyEvent;)V" new="D"/>
+   <method old="access$400(Lew/quilt/packet/PacketConverter;Ljava/awt/event/KeyEvent;)V" new="I"/>
+   <method old="access$500(Lew/quilt/packet/PacketConverter;Ljava/awt/event/KeyEvent;)V" new="h"/>
+   <method old="access$600(Lew/quilt/packet/PacketConverter;Ljava/awt/event/ActionEvent;)V" new="a"/>
+   <method old="access$700(Lew/quilt/packet/PacketConverter;Ljava/awt/event/KeyEvent;)V" new="a"/>
+   <method old="access$800(Lew/quilt/packet/PacketConverter;Ljava/awt/event/KeyEvent;)V" new="ALLATORIxDEMO"/>
+   <method old="btnReadActionPerformed(Ljava/awt/event/ActionEvent;)V" new="l"/>
+   <method old="btnRestoreActionPerformed(Ljava/awt/event/ActionEvent;)V" new="ALLATORIxDEMO"/>
+   <method old="btnWriteActionPerformed(Ljava/awt/event/ActionEvent;)V" new="a"/>
+   <method old="initAutomaticLineWarp()V" new="ALLATORIxDEMO"/>
+   <method old="initComponents()V" new="l"/>
+   <method old="main([Ljava/lang/String;)V" new="main"/>
+   <method old="txtAreaConvertOutputKeyPressed(Ljava/awt/event/KeyEvent;)V" new="I"/>
+   <method old="txtAreaConvertOutputKeyTyped(Ljava/awt/event/KeyEvent;)V" new="h"/>
+   <method old="txtAreaRestoreOutputKeyPressed(Ljava/awt/event/KeyEvent;)V" new="ALLATORIxDEMO"/>
+   <method old="txtAreaRestoreOutputKeyTyped(Ljava/awt/event/KeyEvent;)V" new="D"/>
+   <method old="txtLengthKeyTyped(Ljava/awt/event/KeyEvent;)V" new="l"/>
+   <method old="txtReadLoopKeyTyped(Ljava/awt/event/KeyEvent;)V" new="a"/>
+   <field old="btnRead Ljavax/swing/JButton;" new="F"/>
+   <field old="btnRestore Ljavax/swing/JButton;" new="I"/>
+   <field old="btnWrite Ljavax/swing/JButton;" new="e"/>
+   <field old="cbType Ljavax/swing/JComboBox;" new="ALLATORIxDEMO"/>
+   <field old="labelConvertInput Ljavax/swing/JLabel;" new="k"/>
+   <field old="labelConvertOutput Ljavax/swing/JLabel;" new="M"/>
+   <field old="labelLength Ljavax/swing/JLabel;" new="A"/>
+   <field old="labelReadLoop Ljavax/swing/JLabel;" new="b"/>
+   <field old="labelRestoreInput Ljavax/swing/JLabel;" new="Z"/>
+   <field old="labelRestoreOutput Ljavax/swing/JLabel;" new="m"/>
+   <field old="labelRestoreWarning Ljavax/swing/JLabel;" new="f"/>
+   <field old="labelX Ljavax/swing/JLabel;" new="G"/>
+   <field old="labelY Ljavax/swing/JLabel;" new="d"/>
+   <field old="panelConvert Ljavax/swing/JPanel;" new="h"/>
+   <field old="panelRestore Ljavax/swing/JPanel;" new="j"/>
+   <field old="spConvertInput Ljavax/swing/JScrollPane;" new="g"/>
+   <field old="spConvertOutput Ljavax/swing/JScrollPane;" new="J"/>
+   <field old="spRestoreInput Ljavax/swing/JScrollPane;" new="K"/>
+   <field old="spRestoreOutput Ljavax/swing/JScrollPane;" new="E"/>
+   <field old="tabPacketConverter Ljavax/swing/JTabbedPane;" new="D"/>
+   <field old="txtAreaConvertInput Ljavax/swing/JTextArea;" new="C"/>
+   <field old="txtAreaConvertOutput Ljavax/swing/JTextArea;" new="L"/>
+   <field old="txtAreaRestoreInput Ljavax/swing/JTextArea;" new="l"/>
+   <field old="txtAreaRestoreOutput Ljavax/swing/JTextArea;" new="i"/>
+   <field old="txtLength Ljavax/swing/JTextField;" new="H"/>
+   <field old="txtReadLoop Ljavax/swing/JTextField;" new="c"/>
+   <field old="txtX Ljavax/swing/JTextField;" new="a"/>
+   <field old="txtY Ljavax/swing/JTextField;" new="B"/>
+  </class>
+  <class old="ew.quilt.tool.data.input.GenericSeekableLittleEndianAccessor" new="y.y.y.y.n.C">
+   <method old="available()J" new="ALLATORIxDEMO"/>
+   <method old="getBytesRead()J" new="l"/>
+   <method old="getPosition()J" new="D"/>
+   <method old="read(I)[B" new="ALLATORIxDEMO"/>
+   <method old="readAsciiString(I)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="readByte()B" new="ALLATORIxDEMO"/>
+   <method old="readByteAsInt()I" new="ALLATORIxDEMO"/>
+   <method old="readChar()C" new="ALLATORIxDEMO"/>
+   <method old="readDouble()D" new="ALLATORIxDEMO"/>
+   <method old="readFloat()F" new="ALLATORIxDEMO"/>
+   <method old="readInt()I" new="l"/>
+   <method old="readLong()J" new="a"/>
+   <method old="readLongLegacy()J" new="I"/>
+   <method old="readMapleAsciiString()Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="readPos()Ljava/awt/Point;" new="ALLATORIxDEMO"/>
+   <method old="readShort()S" new="ALLATORIxDEMO"/>
+   <method old="seek(J)V" new="ALLATORIxDEMO"/>
+   <method old="skip(I)V" new="ALLATORIxDEMO"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <method old="toString(Z)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <field old="bs Lew/quilt/tool/data/input/SeekableInputStreamBytestream;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.tool.data.ByteArrayByteStream" new="y.y.y.y.g">
+   <method old="available()J" new="ALLATORIxDEMO"/>
+   <method old="getByte(I)I" new="ALLATORIxDEMO"/>
+   <method old="getBytesRead()J" new="l"/>
+   <method old="getLength()I" new="a"/>
+   <method old="getPosition()J" new="a"/>
+   <method old="getlength()I" new="ALLATORIxDEMO"/>
+   <method old="readByte()I" new="l"/>
+   <method old="readLastByte()I" new="D"/>
+   <method old="readLastBytes(I)[I" new="ALLATORIxDEMO"/>
+   <method old="seek(J)V" new="ALLATORIxDEMO"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <method old="toString(Z)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="unReadByte()V" new="ALLATORIxDEMO"/>
+   <field old="arr [B" new="A"/>
+   <field old="bytesRead J" new="g"/>
+   <field old="pos I" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketConverter$1" new="y.y.n.pB">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketConverter$2" new="y.y.n.mB">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketConverter$3" new="y.y.n.vC">
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketWriterHelper$10" new="y.y.n.Ma">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketWriterHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketStringAnalyzer" new="y.y.n.la">
+   <method old="access$000(Lew/quilt/packet/PacketStringAnalyzer;Ljava/awt/event/KeyEvent;)V" new="k"/>
+   <method old="access$100(Lew/quilt/packet/PacketStringAnalyzer;Ljava/awt/event/KeyEvent;)V" new="ALLATORIxDEMO"/>
+   <method old="access$200(Lew/quilt/packet/PacketStringAnalyzer;Ljava/awt/event/KeyEvent;)V" new="a"/>
+   <method old="access$300(Lew/quilt/packet/PacketStringAnalyzer;Ljava/awt/event/KeyEvent;)V" new="I"/>
+   <method old="access$400(Lew/quilt/packet/PacketStringAnalyzer;Ljava/awt/event/KeyEvent;)V" new="l"/>
+   <method old="access$500(Lew/quilt/packet/PacketStringAnalyzer;Ljava/awt/event/KeyEvent;)V" new="E"/>
+   <method old="access$600(Lew/quilt/packet/PacketStringAnalyzer;Ljava/awt/event/KeyEvent;)V" new="h"/>
+   <method old="access$700(Lew/quilt/packet/PacketStringAnalyzer;Ljava/awt/event/KeyEvent;)V" new="D"/>
+   <method old="initComponents()V" new="ALLATORIxDEMO"/>
+   <method old="main([Ljava/lang/String;)V" new="main"/>
+   <method old="txtAreaOutputKeyPressed(Ljava/awt/event/KeyEvent;)V" new="E"/>
+   <method old="txtAreaOutputKeyTyped(Ljava/awt/event/KeyEvent;)V" new="I"/>
+   <method old="txtAreaPacketKeyReleased(Ljava/awt/event/KeyEvent;)V" new="k"/>
+   <method old="txtAreaPacketKeyTyped(Ljava/awt/event/KeyEvent;)V" new="ALLATORIxDEMO"/>
+   <method old="txtLimitKeyReleased(Ljava/awt/event/KeyEvent;)V" new="a"/>
+   <method old="txtLimitKeyTyped(Ljava/awt/event/KeyEvent;)V" new="h"/>
+   <method old="txtOffsetKeyReleased(Ljava/awt/event/KeyEvent;)V" new="l"/>
+   <method old="txtOffsetKeyTyped(Ljava/awt/event/KeyEvent;)V" new="D"/>
+   <method old="updateOutput()V" new="l"/>
+   <field old="labelLimit Ljavax/swing/JLabel;" new="g"/>
+   <field old="labelOffset Ljavax/swing/JLabel;" new="d"/>
+   <field old="labelOutput Ljavax/swing/JLabel;" new="L"/>
+   <field old="labelPacket Ljavax/swing/JLabel;" new="j"/>
+   <field old="labelPacketString Ljavax/swing/JLabel;" new="ALLATORIxDEMO"/>
+   <field old="slea Lew/quilt/tool/data/LittleEndianAccessor;" new="A"/>
+   <field old="spOutput Ljavax/swing/JScrollPane;" new="K"/>
+   <field old="spPacket Ljavax/swing/JScrollPane;" new="h"/>
+   <field old="txtAreaOutput Ljavax/swing/JTextArea;" new="D"/>
+   <field old="txtAreaPacket Ljavax/swing/JTextArea;" new="m"/>
+   <field old="txtLimit Ljavax/swing/JTextField;" new="B"/>
+   <field old="txtOffset Ljavax/swing/JTextField;" new="e"/>
+  </class>
+  <class old="ew.quilt.packet.PacketConverter$4" new="y.y.n.Rc">
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.tool.data.output.BAOSByteOutputStream" new="y.y.y.y.y.E">
+   <method old="writeByte(B)V" new="ALLATORIxDEMO"/>
+   <field old="baos Ljava/io/ByteArrayOutputStream;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketWriterHelper$11" new="y.y.n.ha">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketWriterHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketConverter$5" new="y.y.n.fc">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketWriterHelper$12" new="y.y.n.Ga">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketWriterHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketConverter$6" new="y.y.n.TB">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketWriterHelper$13" new="y.y.n.q">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketWriterHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketConverter$7" new="y.y.n.IB">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.helper.component.TextLineNumber" new="y.y.d.n.G">
+   <method old="access$000(Lew/quilt/helper/component/TextLineNumber;)Ljavax/swing/text/JTextComponent;" new="ALLATORIxDEMO"/>
+   <method old="access$100(Lew/quilt/helper/component/TextLineNumber;)I" new="ALLATORIxDEMO"/>
+   <method old="access$102(Lew/quilt/helper/component/TextLineNumber;I)I" new="ALLATORIxDEMO"/>
+   <method old="access$200(Lew/quilt/helper/component/TextLineNumber;)V" new="ALLATORIxDEMO"/>
+   <method old="caretUpdate(Ljavax/swing/event/CaretEvent;)V" new="caretUpdate"/>
+   <method old="changedUpdate(Ljavax/swing/event/DocumentEvent;)V" new="changedUpdate"/>
+   <method old="documentChanged()V" new="ALLATORIxDEMO"/>
+   <method old="getBorderGap()I" new="l"/>
+   <method old="getCurrentLineForeground()Ljava/awt/Color;" new="ALLATORIxDEMO"/>
+   <method old="getDigitAlignment()F" new="ALLATORIxDEMO"/>
+   <method old="getMinimumDisplayDigits()I" new="ALLATORIxDEMO"/>
+   <method old="getOffsetX(II)I" new="ALLATORIxDEMO"/>
+   <method old="getOffsetY(ILjava/awt/FontMetrics;)I" new="ALLATORIxDEMO"/>
+   <method old="getTextLineNumber(I)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="getUpdateFont()Z" new="ALLATORIxDEMO"/>
+   <method old="insertUpdate(Ljavax/swing/event/DocumentEvent;)V" new="insertUpdate"/>
+   <method old="isCurrentLine(I)Z" new="ALLATORIxDEMO"/>
+   <method old="paintComponent(Ljava/awt/Graphics;)V" new="paintComponent"/>
+   <method old="propertyChange(Ljava/beans/PropertyChangeEvent;)V" new="propertyChange"/>
+   <method old="removeUpdate(Ljavax/swing/event/DocumentEvent;)V" new="removeUpdate"/>
+   <method old="setBorderGap(I)V" new="ALLATORIxDEMO"/>
+   <method old="setCurrentLineForeground(Ljava/awt/Color;)V" new="ALLATORIxDEMO"/>
+   <method old="setDigitAlignment(F)V" new="ALLATORIxDEMO"/>
+   <method old="setMinimumDisplayDigits(I)V" new="l"/>
+   <method old="setPreferredWidth()V" new="l"/>
+   <method old="setUpdateFont(Z)V" new="ALLATORIxDEMO"/>
+   <field old="CENTER F" new="j"/>
+   <field old="HEIGHT I" new="l"/>
+   <field old="LEFT F" new="h"/>
+   <field old="OUTER Ljavax/swing/border/Border;" new="L"/>
+   <field old="RIGHT F" new="m"/>
+   <field old="borderGap I" new="A"/>
+   <field old="component Ljavax/swing/text/JTextComponent;" new="ALLATORIxDEMO"/>
+   <field old="currentLineForeground Ljava/awt/Color;" new="d"/>
+   <field old="digitAlignment F" new="K"/>
+   <field old="fonts Ljava/util/HashMap;" new="I"/>
+   <field old="lastDigits I" new="e"/>
+   <field old="lastHeight I" new="B"/>
+   <field old="lastLine I" new="a"/>
+   <field old="minimumDisplayDigits I" new="D"/>
+   <field old="updateFont Z" new="g"/>
+  </class>
+  <class old="ew.quilt.packet.PacketWriterHelper$14" new="y.y.n.U">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketWriterHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketConverter$8" new="y.y.n.EA">
+   <method old="run()V" new="run"/>
+  </class>
+  <class old="ew.quilt.packet.PacketWriterHelper$15" new="y.y.n.P">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketWriterHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketWriterHelper$16" new="y.y.n.Z">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketWriterHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketWriterHelper$17" new="y.y.n.s">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketWriterHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketWriterHelper$18" new="y.y.n.y">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketWriterHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketWriterHelper$19" new="y.y.n.T">
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketWriterHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.tool.data.input.SeekableLittleEndianAccessor" new="y.y.y.y.n.M">
+   <method old="available()J" new="ALLATORIxDEMO"/>
+   <method old="getBytesRead()J" new="l"/>
+   <method old="getPosition()J" new="D"/>
+   <method old="read(I)[B" new="ALLATORIxDEMO"/>
+   <method old="readAsciiString(I)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="readByte()B" new="ALLATORIxDEMO"/>
+   <method old="readByteAsInt()I" new="ALLATORIxDEMO"/>
+   <method old="readChar()C" new="ALLATORIxDEMO"/>
+   <method old="readDouble()D" new="ALLATORIxDEMO"/>
+   <method old="readFloat()F" new="ALLATORIxDEMO"/>
+   <method old="readInt()I" new="l"/>
+   <method old="readLong()J" new="a"/>
+   <method old="readMapleAsciiString()Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="readPos()Ljava/awt/Point;" new="ALLATORIxDEMO"/>
+   <method old="readShort()S" new="ALLATORIxDEMO"/>
+   <method old="seek(J)V" new="ALLATORIxDEMO"/>
+   <method old="skip(I)V" new="ALLATORIxDEMO"/>
+   <method old="toString(Z)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.tool.data.output.MaplePacketLittleEndianWriter" new="y.y.y.y.y.M">
+   <method old="getPacket()[B" new="ALLATORIxDEMO"/>
+   <method old="getlength(Ljava/lang/String;)I" new="ALLATORIxDEMO"/>
+   <method old="setByteOutputStream(Lew/quilt/tool/data/output/ByteOutputStream;)V" new="ALLATORIxDEMO"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <method old="write(B)V" new="ALLATORIxDEMO"/>
+   <method old="write(I)V" new="l"/>
+   <method old="write([B)V" new="ALLATORIxDEMO"/>
+   <method old="writeAsciiString(Ljava/lang/String;)V" new="ALLATORIxDEMO"/>
+   <method old="writeAsciiString(Ljava/lang/String;I)V" new="ALLATORIxDEMO"/>
+   <method old="writeInt(I)V" new="a"/>
+   <method old="writeLong(J)V" new="ALLATORIxDEMO"/>
+   <method old="writeLongLegacy(J)V" new="l"/>
+   <method old="writeMapleAsciiString(Ljava/lang/String;)V" new="l"/>
+   <method old="writePos(Ljava/awt/Point;)V" new="ALLATORIxDEMO"/>
+   <method old="writeShort(I)V" new="ALLATORIxDEMO"/>
+   <method old="writeShort(S)V" new="ALLATORIxDEMO"/>
+   <method old="writeZeroBytes(I)V" new="D"/>
+   <field old="baos Ljava/io/ByteArrayOutputStream;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$10" new="y.y.n.v">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$11" new="y.y.n.S">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$12" new="y.y.n.X">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$13" new="y.y.n.h">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketStringAnalyzer$1" new="y.y.n.Ha">
+   <method old="keyReleased(Ljava/awt/event/KeyEvent;)V" new="keyReleased"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketStringAnalyzer;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$14" new="y.y.n.m">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketStringAnalyzer$2" new="y.y.n.La">
+   <method old="keyReleased(Ljava/awt/event/KeyEvent;)V" new="keyReleased"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketStringAnalyzer;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$15" new="y.y.n.I">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.tool.data.MaplePacketLittleEndianWriter" new="y.y.y.y.d">
+   <method old="getLength()I" new="ALLATORIxDEMO"/>
+   <method old="getPacket()[B" new="ALLATORIxDEMO"/>
+   <method old="getlength(Ljava/lang/String;)I" new="ALLATORIxDEMO"/>
+   <method old="subByteArray(I)[B" new="ALLATORIxDEMO"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <method old="write(B)V" new="ALLATORIxDEMO"/>
+   <method old="write(I)V" new="D"/>
+   <method old="write(Z)V" new="ALLATORIxDEMO"/>
+   <method old="write([B)V" new="ALLATORIxDEMO"/>
+   <method old="writeAsciiString(Ljava/lang/String;)V" new="l"/>
+   <method old="writeAsciiString(Ljava/lang/String;I)V" new="l"/>
+   <method old="writeByte(B)V" new="l"/>
+   <method old="writeInt(I)V" new="I"/>
+   <method old="writeLong(J)V" new="ALLATORIxDEMO"/>
+   <method old="writeLongLegacy(J)V" new="l"/>
+   <method old="writeMapleAsciiString(Ljava/lang/String;)V" new="a"/>
+   <method old="writeMapleAsciiString(Ljava/lang/String;I)V" new="ALLATORIxDEMO"/>
+   <method old="writeMapleAsciiStrings(Ljava/lang/String;)V" new="ALLATORIxDEMO"/>
+   <method old="writePos(Ljava/awt/Point;)V" new="ALLATORIxDEMO"/>
+   <method old="writeRect(Ljava/awt/Rectangle;)V" new="ALLATORIxDEMO"/>
+   <method old="writeReversedLong(J)V" new="D"/>
+   <method old="writeReversedLongLegacy(J)V" new="a"/>
+   <method old="writeShort(I)V" new="l"/>
+   <method old="writeZeroByte(I)V" new="ALLATORIxDEMO"/>
+   <method old="writeZeroBytes(I)V" new="a"/>
+   <field old="ASCII Ljava/nio/charset/Charset;" new="ALLATORIxDEMO"/>
+   <field old="baos Ljava/io/ByteArrayOutputStream;" new="g"/>
+  </class>
+  <class old="ew.quilt.packet.PacketStringAnalyzer$3" new="y.y.n.aa">
+   <method old="keyReleased(Ljava/awt/event/KeyEvent;)V" new="keyReleased"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketStringAnalyzer;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$16" new="y.y.n.k">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketStringAnalyzer$4" new="y.y.n.Ca">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketStringAnalyzer;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.helper.PacketHelperTool" new="y.y.d.d">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="appendTextArea(Ljavax/swing/JTextArea;Ljava/lang/String;)V" new="ALLATORIxDEMO"/>
+   <method old="binOnly(Ljava/awt/event/KeyEvent;)V" new="D"/>
+   <method old="cleanNotBinString(Ljava/lang/String;)Ljava/lang/String;" new="l"/>
+   <method old="cleanNotHexString(Ljava/lang/String;)Ljava/lang/String;" new="I"/>
+   <method old="cleanNotNumberString(Ljava/lang/String;)Ljava/lang/String;" new="k"/>
+   <method old="cleanNotOctString(Ljava/lang/String;)Ljava/lang/String;" new="a"/>
+   <method old="fixPacketInput(Ljava/lang/String;)Ljava/lang/String;" new="E"/>
+   <method old="fixPacketInputAutomaticFix(Ljava/lang/String;)Ljava/lang/String;" new="D"/>
+   <method old="fixPacketStream(Ljava/lang/String;)Ljava/lang/String;" new="f"/>
+   <method old="handleEscapeString(Ljava/lang/String;)Ljava/lang/String;" new="h"/>
+   <method old="hexArrayOnly(Ljava/awt/event/KeyEvent;)V" new="l"/>
+   <method old="hexOnly(Ljava/awt/event/KeyEvent;)V" new="a"/>
+   <method old="insertPeriodically(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="numberOnly(Ljava/awt/event/KeyEvent;)V" new="I"/>
+   <method old="numberWithNegative(Ljava/awt/event/KeyEvent;)V" new="ALLATORIxDEMO"/>
+   <method old="octOnly(Ljava/awt/event/KeyEvent;)V" new="h"/>
+   <method old="removeLastLine(Ljavax/swing/JTextArea;)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <field old="VK_LOWER_A I" new="ALLATORIxDEMO"/>
+   <field old="VK_LOWER_F I" new="A"/>
+   <field old="VK_NEGATIVE I" new="g"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$17" new="y.y.n.b">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketWriterHelper$20" new="y.y.n.t">
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketWriterHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketStringAnalyzer$5" new="y.y.n.Aa">
+   <method old="run()V" new="run"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$18" new="y.y.n.K">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketWriterHelper$21" new="y.y.n.u">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketWriterHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$19" new="y.y.n.l">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketWriterHelper$22" new="y.y.n.z">
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketWriterHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketWriterHelper$23" new="y.y.n.Y">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketWriterHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketWriterHelper$24" new="y.y.n.V">
+   <method old="run()V" new="run"/>
+  </class>
+  <class old="ew.quilt.packet.PacketToolBox" new="y.y.n.ja">
+   <method old="access$000(Lew/quilt/packet/PacketToolBox;Ljava/awt/event/ActionEvent;)V" new="I"/>
+   <method old="access$100(Lew/quilt/packet/PacketToolBox;Ljava/awt/event/ActionEvent;)V" new="a"/>
+   <method old="access$200(Lew/quilt/packet/PacketToolBox;Ljava/awt/event/ActionEvent;)V" new="l"/>
+   <method old="access$300(Lew/quilt/packet/PacketToolBox;Ljava/awt/event/ActionEvent;)V" new="ALLATORIxDEMO"/>
+   <method old="access$400(Lew/quilt/packet/PacketToolBox;Ljava/awt/event/ActionEvent;)V" new="D"/>
+   <method old="btnConverterActionPerformed(Ljava/awt/event/ActionEvent;)V" new="D"/>
+   <method old="btnRadixConverterActionPerformed(Ljava/awt/event/ActionEvent;)V" new="l"/>
+   <method old="btnReaderHelperActionPerformed(Ljava/awt/event/ActionEvent;)V" new="ALLATORIxDEMO"/>
+   <method old="btnStringAnalyzerActionPerformed(Ljava/awt/event/ActionEvent;)V" new="a"/>
+   <method old="btnWriterHelperActionPerformed(Ljava/awt/event/ActionEvent;)V" new="I"/>
+   <method old="initComponents()V" new="ALLATORIxDEMO"/>
+   <method old="main([Ljava/lang/String;)V" new="main"/>
+   <field old="btnConverter Ljavax/swing/JButton;" new="B"/>
+   <field old="btnRadixConverter Ljavax/swing/JButton;" new="ALLATORIxDEMO"/>
+   <field old="btnReaderHelper Ljavax/swing/JButton;" new="m"/>
+   <field old="btnStringAnalyzer Ljavax/swing/JButton;" new="d"/>
+   <field old="btnWriterHelper Ljavax/swing/JButton;" new="g"/>
+   <field old="labelCopyright Ljavax/swing/JLabel;" new="j"/>
+   <field old="labelPacketToolBox Ljavax/swing/JLabel;" new="A"/>
+  </class>
+  <class old="ew.quilt.tool.data.input.InputStreamByteStream" new="y.y.y.y.n.D">
+   <method old="available()J" new="l"/>
+   <method old="getBytesRead()J" new="ALLATORIxDEMO"/>
+   <method old="readByte()I" new="ALLATORIxDEMO"/>
+   <method old="toString(Z)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <field old="is Ljava/io/InputStream;" new="ALLATORIxDEMO"/>
+   <field old="read J" new="g"/>
+  </class>
+  <class old="ew.quilt.packet.PacketWriterHelper$RedoWriterInformation" new="y.y.n.O">
+   <field old="data Ljava/lang/String;" new="d"/>
+   <field old="packet [B" new="A"/>
+   <field old="programData Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <field old="this$0 Lew/quilt/packet/PacketWriterHelper;" new="g"/>
+  </class>
+  <class old="ew.quilt.helper.component.TextLineNumber$1" new="y.y.d.n.d">
+   <method old="run()V" new="run"/>
+   <field old="this$0 Lew/quilt/helper/component/TextLineNumber;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.tool.data.output.GenericLittleEndianWriter" new="y.y.y.y.y.g">
+   <method old="getlength(Ljava/lang/String;)I" new="ALLATORIxDEMO"/>
+   <method old="setByteOutputStream(Lew/quilt/tool/data/output/ByteOutputStream;)V" new="ALLATORIxDEMO"/>
+   <method old="write(B)V" new="ALLATORIxDEMO"/>
+   <method old="write(I)V" new="l"/>
+   <method old="write([B)V" new="ALLATORIxDEMO"/>
+   <method old="writeAsciiString(Ljava/lang/String;)V" new="ALLATORIxDEMO"/>
+   <method old="writeAsciiString(Ljava/lang/String;I)V" new="ALLATORIxDEMO"/>
+   <method old="writeInt(I)V" new="a"/>
+   <method old="writeLong(J)V" new="ALLATORIxDEMO"/>
+   <method old="writeLongLegacy(J)V" new="l"/>
+   <method old="writeMapleAsciiString(Ljava/lang/String;)V" new="l"/>
+   <method old="writePos(Ljava/awt/Point;)V" new="ALLATORIxDEMO"/>
+   <method old="writeShort(I)V" new="ALLATORIxDEMO"/>
+   <method old="writeShort(S)V" new="ALLATORIxDEMO"/>
+   <method old="writeZeroBytes(I)V" new="D"/>
+   <field old="ASCII Ljava/nio/charset/Charset;" new="g"/>
+   <field old="bos Lew/quilt/tool/data/output/ByteOutputStream;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$20" new="y.y.n.f">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$21" new="y.y.n.F">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$22" new="y.y.n.j">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$23" new="y.y.n.B">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$24" new="y.y.n.J">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$UndoReaderInformation" new="y.y.n.Ka">
+   <field old="packetName Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <field old="size I" new="g"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$10" new="y.y.n.YA">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$25" new="y.y.n.A">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$11" new="y.y.n.Lc">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$26" new="y.y.n.e">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$12" new="y.y.n.xa">
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.tool.data.input.GenericLittleEndianAccessor" new="y.y.y.y.n.i">
+   <method old="available()J" new="ALLATORIxDEMO"/>
+   <method old="getBytesRead()J" new="l"/>
+   <method old="getPosition()J" new="D"/>
+   <method old="read(I)[B" new="ALLATORIxDEMO"/>
+   <method old="readAsciiString(I)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="readByte()B" new="ALLATORIxDEMO"/>
+   <method old="readByteAsInt()I" new="ALLATORIxDEMO"/>
+   <method old="readChar()C" new="ALLATORIxDEMO"/>
+   <method old="readDouble()D" new="ALLATORIxDEMO"/>
+   <method old="readFloat()F" new="ALLATORIxDEMO"/>
+   <method old="readInt()I" new="l"/>
+   <method old="readLong()J" new="a"/>
+   <method old="readLongLegacy()J" new="I"/>
+   <method old="readMapleAsciiString()Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="readPos()Ljava/awt/Point;" new="ALLATORIxDEMO"/>
+   <method old="readShort()S" new="ALLATORIxDEMO"/>
+   <method old="seek(J)V" new="ALLATORIxDEMO"/>
+   <method old="skip(I)V" new="ALLATORIxDEMO"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <method old="toString(Z)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <field old="bs Lew/quilt/tool/data/input/ByteInputStream;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$27" new="y.y.n.c">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$13" new="y.y.n.Ra">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$1" new="y.y.n.RC">
+   <method old="mouseClicked(Ljava/awt/event/MouseEvent;)V" new="mouseClicked"/>
+   <method old="mouseReleased(Ljava/awt/event/MouseEvent;)V" new="mouseReleased"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$28" new="y.y.n.H">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$2" new="y.y.n.ya">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyReleased(Ljava/awt/event/KeyEvent;)V" new="keyReleased"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$14" new="y.y.n.sa">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$29" new="y.y.n.a">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/RadixConverter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$3" new="y.y.n.ua">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$15" new="y.y.n.Xa">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.helper.console.PacketReaderConsole" new="y.y.d.y.G">
+   <method old="available()J" new="l"/>
+   <method old="readAsciiString(I)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="readAsciiString(ILjava/lang/String;)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="readByte()B" new="ALLATORIxDEMO"/>
+   <method old="readByte(Ljava/lang/String;)B" new="ALLATORIxDEMO"/>
+   <method old="readInt()I" new="ALLATORIxDEMO"/>
+   <method old="readInt(Ljava/lang/String;)I" new="ALLATORIxDEMO"/>
+   <method old="readLong()J" new="ALLATORIxDEMO"/>
+   <method old="readLong(Ljava/lang/String;)J" new="ALLATORIxDEMO"/>
+   <method old="readMapleAsciiString()Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="readMapleAsciiString(Ljava/lang/String;)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="readOPCode()S" new="l"/>
+   <method old="readPos()Ljava/awt/Point;" new="ALLATORIxDEMO"/>
+   <method old="readPos(Ljava/lang/String;)Ljava/awt/Point;" new="ALLATORIxDEMO"/>
+   <method old="readShort()S" new="ALLATORIxDEMO"/>
+   <method old="readShort(Ljava/lang/String;)S" new="ALLATORIxDEMO"/>
+   <method old="skip(I)[B" new="ALLATORIxDEMO"/>
+   <field old="slea Lew/quilt/tool/data/LittleEndianAccessor;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$4" new="y.y.n.Fa">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$16" new="y.y.n.Na">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$5" new="y.y.n.ca">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$17" new="y.y.n.ra">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$6" new="y.y.n.ia">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$18" new="y.y.n.Za">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$7" new="y.y.n.ma">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$19" new="y.y.n.oa">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.tool.HexTool" new="y.y.y.d">
+   <method old="getByteArrayFromHexString(Ljava/lang/String;)[B" new="ALLATORIxDEMO"/>
+   <method old="getOpcodeToString(I)Ljava/lang/String;" new="l"/>
+   <method old="toBinary(Ljava/lang/String;)Ljava/lang/String;" new="l"/>
+   <method old="toHex(Ljava/lang/String;)Ljava/lang/String;" new="a"/>
+   <method old="toMacString([B)Ljava/lang/String;" new="D"/>
+   <method old="toOctal(Ljava/lang/String;)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="toPaddedStringFromAscii([B)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="toString(B)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="toString(I)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="toString([B)Ljava/lang/String;" new="l"/>
+   <method old="toStringFromAscii([B)Ljava/lang/String;" new="a"/>
+   <field old="HEX [C" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$8" new="y.y.n.da">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$9" new="y.y.n.Ja">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.exception.EWException" new="y.y.j.G">
+   <method old="defaultDouble()D" new="ALLATORIxDEMO"/>
+   <method old="defaultInteger()I" new="ALLATORIxDEMO"/>
+   <method old="defaultString()Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="errorInteger()I" new="D"/>
+   <method old="forceExit()V" new="ALLATORIxDEMO"/>
+   <method old="getEW()I" new="l"/>
+   <method old="getExceptionType()I" new="a"/>
+   <method old="getMessage()Ljava/lang/String;" new="getMessage"/>
+   <method old="getNull()Ljava/lang/Object;" new="ALLATORIxDEMO"/>
+   <method old="stackTraceString()Ljava/lang/String;" new="l"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="EW I" new="g"/>
+   <field old="type I" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketToolBox$1" new="y.y.n.Ea">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketToolBox;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketToolBox$2" new="y.y.n.ba">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketToolBox;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.tool.data.output.ByteOutputStream" new="y.y.y.y.y.G">
+   <method old="writeByte(B)V" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketToolBox$3" new="y.y.n.Da">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketToolBox;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketToolBox$4" new="y.y.n.fa">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketToolBox;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketToolBox$5" new="y.y.n.ga">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketToolBox;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketToolBox$6" new="y.y.n.Ba">
+   <method old="run()V" new="run"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$RedoReaderInformation" new="y.y.n.ea">
+   <field old="data Ljava/lang/String;" new="d"/>
+   <field old="packetName Ljava/lang/String;" new="g"/>
+   <field old="programData Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <field old="size I" new="A"/>
+  </class>
+  <class old="ew.quilt.helper.console.PacketWriterConsole" new="y.y.d.y.d">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="getLength()I" new="ALLATORIxDEMO"/>
+   <method old="getPacket()[B" new="ALLATORIxDEMO"/>
+   <method old="writeAsciiString(Ljava/lang/String;)V" new="l"/>
+   <method old="writeAsciiString(Ljava/lang/String;Ljava/lang/String;)V" new="ALLATORIxDEMO"/>
+   <method old="writeByte(B)V" new="ALLATORIxDEMO"/>
+   <method old="writeByte(BLjava/lang/String;)V" new="ALLATORIxDEMO"/>
+   <method old="writeInt(I)V" new="ALLATORIxDEMO"/>
+   <method old="writeInt(ILjava/lang/String;)V" new="ALLATORIxDEMO"/>
+   <method old="writeLong(J)V" new="ALLATORIxDEMO"/>
+   <method old="writeLong(JLjava/lang/String;)V" new="ALLATORIxDEMO"/>
+   <method old="writeMapleAsciiString(Ljava/lang/String;)V" new="ALLATORIxDEMO"/>
+   <method old="writeMapleAsciiString(Ljava/lang/String;Ljava/lang/String;)V" new="l"/>
+   <method old="writeOPCode(S)V" new="l"/>
+   <method old="writePos(Ljava/awt/Point;)V" new="ALLATORIxDEMO"/>
+   <method old="writePos(Ljava/awt/Point;Ljava/lang/String;)V" new="ALLATORIxDEMO"/>
+   <method old="writeShort(S)V" new="ALLATORIxDEMO"/>
+   <method old="writeShort(SLjava/lang/String;)V" new="ALLATORIxDEMO"/>
+   <field old="mplew Lew/quilt/tool/data/MaplePacketLittleEndianWriter;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.RadixConverter$30" new="y.y.n.i">
+   <method old="run()V" new="run"/>
+  </class>
+  <class old="ew.quilt.tool.data.input.RandomAccessByteStream" new="y.y.y.y.n.E">
+   <method old="available()J" new="l"/>
+   <method old="getBytesRead()J" new="ALLATORIxDEMO"/>
+   <method old="getPosition()J" new="a"/>
+   <method old="readByte()I" new="ALLATORIxDEMO"/>
+   <method old="seek(J)V" new="ALLATORIxDEMO"/>
+   <method old="toString(Z)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <field old="raf Ljava/io/RandomAccessFile;" new="ALLATORIxDEMO"/>
+   <field old="read J" new="g"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$20" new="y.y.n.Pa">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$21" new="y.y.n.Sa">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$22" new="y.y.n.Qa">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$23" new="y.y.n.va">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$24" new="y.y.n.ta">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$25" new="y.y.n.Va">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$26" new="y.y.n.za">
+   <method old="actionPerformed(Ljava/awt/event/ActionEvent;)V" new="actionPerformed"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$27" new="y.y.n.qa">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$28" new="y.y.n.Wa">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <class old="ew.quilt.packet.PacketReaderHelper$29" new="y.y.n.pa">
+   <method old="keyPressed(Ljava/awt/event/KeyEvent;)V" new="keyPressed"/>
+   <method old="keyTyped(Ljava/awt/event/KeyEvent;)V" new="keyTyped"/>
+   <field old="this$0 Lew/quilt/packet/PacketReaderHelper;" new="ALLATORIxDEMO"/>
+  </class>
+  <sources>
+  </sources>
+  <lines>
+  </lines>
+ </mapping>
+</allatori>
